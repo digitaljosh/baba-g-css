@@ -59,12 +59,12 @@ div.textwidget.widget-text {
 }
 
 .thn_post_wrap a:link {
-color: #038e0f;
+  color: #038e0f;
 }
 
 div.woocommerce {
-background-color: #ffffff;
-opacity: .9;
+  background-color: #ffffff;
+  opacity: .9;
   padding: 20px 20px;
 }
 
@@ -79,25 +79,25 @@ opacity: .9;
 }
 
 .woocommerce form.login, .woocommerce form.register {
-background-color: #ffffff;
-opacity: .95;
+  background-color: #ffffff;
+  opacity: .95;
 }
 
 #theyrecreated {
-text-shadow: 1px 1px #22a332
+  text-shadow: 1px 1px #22a332
 }
 
 #createconsumeenjoy {
-text-shadow: 1px 1px #22a332;
+  text-shadow: 1px 1px #22a332;
   font-size: 64px;
 }
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
-text-transform: none;
+  text-transform: none;
 }
 
 .static_gallery.slideshow_loading img {
-height: 800px;
+  height: 800px;
 }
 
 label {
@@ -115,15 +115,15 @@ label {
 }
 
 .nivoSlider img {
-max-width: 400px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 25px;
-left: 0%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  left: 0%;
 }
 
 #191 {
-height: 158px;
+  height: 158px;
 }
 
 .woocommerce-breadcrumb {
@@ -165,7 +165,7 @@ font-size: 55px;
 
 
 .woocommerce .entry-summary .product_meta > span {
-display: none;
+  display: none;
 }
 
 body {
@@ -173,7 +173,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, #topmenu ul li a, .postitle, .product_title {
-font-family: 'citizenkernoblique';
+  font-family: 'citizenkernoblique';
 }
 
 div#footer.footer_center {
@@ -185,32 +185,32 @@ div#footer.footer_center {
 }
 
 #optimizer_front_map-11 .home_title {
-font-size: 2em;
+  font-size: 2em;
 }
 
 #optimizer_front_text-36 .text_block {
-padding-top: 10%;
+  padding-top: 10%;
 }
 
 .slider_inner {
-background-color: #1F1F1F;
+  background-color: #1F1F1F;
   padding-top: 2.5%;
 }
 
 #copyright {
-display: none;
+  display: none;
 }
 
 .home_action_button {
-padding: 0px;
+  padding: 0px;
 }
 
 #optimizer_front_cta-8 .button_flat {
-border-color: #ffffff;
+  border-color: #ffffff;
 }
 
 #optimizer_front_cta-8 .home_action_button a {
-padding: 10px 18px;
+  padding: 10px 18px;
 }
 
 #optimizer_front_cta-8 .home_action {
@@ -222,8 +222,8 @@ padding: 10px 18px;
 }
 
 #simple-menu {
-top: 0px;
-color: #000000;
+  top: 0px;
+  color: #000000;
 }
 
 .thn_post_wrap a:link {
@@ -251,13 +251,13 @@ color: #000000;
 }
 
 .wpcf7-form {
-width: 500px;
-margin: auto;
-max-width: 100%;
+  width: 500px;
+  margin: auto;
+  max-width: 100%;
 }
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
-padding: 10px 10px 15px;
+  padding: 10px 10px 15px;
 }
 
 .logged-in div.wpcf7 {
@@ -268,6 +268,15 @@ padding: 10px 10px 15px;
   margin-top:-1px;
 }
 
+.head_inner {
+  margin: auto;
+  float: none;
+  width: 0px;
+}
+
+.woocommerce-result-count, .woocommerce-ordering {
+  display: none;
+}
 
 
 @media only screen and (max-width: 1080px) {
@@ -278,7 +287,11 @@ padding: 10px 10px 15px;
       width: 30%;
 }
 }
-
+@media screen and (max-width: 960px) {
+  .head_inner {
+      width: 100%;
+  }
+}
 @media only screen and (max-width: 800px) {
   #potencyTherm {
       width: 45%;
@@ -287,33 +300,33 @@ padding: 10px 10px 15px;
     width: 39%;
 }
   #we-believe-text {
-      font-size: 40px;
-      padding-right: 12px;
+    font-size: 40px;
+    padding-right: 12px;
 }
 }
 
 @media only screen and (max-width: 630px) {
-.widget_slider_content {
-  display: none;
+  .widget_slider_content {
+    display: none;
 }
 }
 
 @media only screen and (max-width: 618px) {
-#we-believe-text {
-      float: none;
-      text-align: center;
+  #we-believe-text {
+    float: none;
+    text-align: center;
 }
   #optimizer_front_text-36 .text_block {
-  padding-top: 20%;
+    padding-top: 20%;
 }
 }
 
 @media only screen and (max-width: 600px) {
   #potencyTherm {
-      width: 55%;
+    width: 55%;
 }
   #calc-wrapper {
-      width: 47%;
+    width: 47%;
 }
 }
 
@@ -325,59 +338,59 @@ padding: 10px 10px 15px;
     width: 55%;
   }
   .widgettitle {
-      font-size: 28px;
+    font-size: 28px;
   }
   #optimizer_front_text-36 .text_block {
-  padding-right: 15%;
-      padding-left: 15%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 }
 
 @media only screen and (max-width: 465px) {
   .frontpage_sidebar .ast_instagram_widget .widget_wrap {
-        padding-right: 0px;
-          padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
 @media only screen and (max-width: 442px) {
   #potencyTherm {
-      width: 75%;
+    width: 75%;
 }
   #calc-wrapper {
-      width: 63%;
+    width: 63%;
 }
 }
 
 @media only screen and (max-width: 418px) {
-#we-believe-text {
-      font-size: 36px;
+  #we-believe-text {
+    font-size: 36px;
 }
   #optimizer_front_text-36 .text_block {
-  padding-top: 35%;
+    padding-top: 35%;
 }
   #form-submit {
-      width: 100%;
+    width: 100%;
 }
   #recaptcha {
-      padding: 5px;
+    padding: 5px;
 }
   #createconsumeenjoy {
-      font-size: 42px;
+    font-size: 42px;
 }
 }
 
 @media only screen and (max-width: 358px) {
   #ast_instagram.widget_insta_medium li {
-      width: 130px;
+    width: 130px;
 }
-#ast_instagram.widget_insta_medium li img {
+  #ast_instagram.widget_insta_medium li img {
     width: 130px;
 }	
 }
 
 @media only screen and (max-width: 340px) {
-#we-believe-text {
+  #we-believe-text {
     font-size: 36px;
 }
 }
