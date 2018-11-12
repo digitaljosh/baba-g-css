@@ -2,51 +2,104 @@
   display: block;
 }
 
+.aboutblock {
+  padding: 0px 0px 30px 0px;
+}
 div.textwidget.widget-text {
-  background-color: #4286f4;
+  background-color: #009FE3;
   padding-top: 4%;
+  /*background-image: url(https://oregonbaba.com/wp-content/uploads/2017/09/BABAG_SHEET_WRAP-V2.png);*/
+  padding-bottom: 50px;
 }
 
-#potCalc {
-  padding-top: 30px;
-  border: 7px solid white;
-}
+
+
+
+/* Potency Calculator */
 #calc-wrapper {
-  text-align: center;
-  background-color: #4286f4;
-  width: 21.5%;
-  margin: auto;
-  border: 9px solid black;
+  width: 325px;
+  height: auto;
+  overflow:hidden;
+  margin: 10px auto;
+  padding: 20px 20px 10px;
+  position:relative;
+  background: rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow:  0px 10px 15px rgba(0, 0, 0, 0.2);
 }
-#calc-title {
-  font-size: 28px; 
-  font-weight: bolder;
-  color: white;
-  background-color: black;
-  padding-bottom: 7px;
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
+
 #percentage {
-  margin-left: 14px; 
-  margin-bottom: 10px;
-  width: 15%;
+  /*height: 60px;*/
+  width: 85%;
+  /*position: absolute;
+  top: 30px;
+  left: auto;*/
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 27px;
+  font-weight: normal;
+  line-height: 40px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  letter-spacing: 1px;
+  margin: 10px 0px 10px 0px;
 }
+
+#grams {
+  /*height: 60px;*/
+  width: 85%;
+  /*position: absolute;
+  top: 120px;
+  left: auto;*/
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 27px;
+  font-weight: normal;
+  line-height: 40px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  letter-spacing: 1px;
+}
+
 #button {
-  width: auto; 
-  height: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /*height: 45px;*/
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 13px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
 }
-#numberofgrams {
-  margin-bottom: 8px;
+
+#button:hover { 
+  opacity: .8;
 }
-#percentage-input {
-  margin-bottom: 3px;
+
+#calc-title {
+  text-align: center;
+  /*margin-top: -10px;*/
+  font-size: 28px;
+  color: white;
 }
-#gram-inputs {
-  margin-bottom: 8px;
+
+#calc-input-wrapper {
+  text-align: center;
 }
-#percentage-text {
-  margin-bottom: 8px; 
-  margin-top: 12px;
-}
+
+
+
+
 
 .woocommerce .addresses .title .edit, .woocommerce-page .addresses .title .edit {
   font-size: 16px;
@@ -83,14 +136,27 @@ div.woocommerce {
   opacity: .95;
 }
 
-#theyrecreated {
-  text-shadow: 1px 1px #22a332
-}
+/*#theyrecreated {
+text-shadow: 1px 1px #22a332
+}*/
 
+
+/* FAQ Page */
 #createconsumeenjoy {
   text-shadow: 1px 1px #22a332;
   font-size: 64px;
+  color: #000;
 }
+
+#add-fav-oils {
+  text-shadow: 1px 1px #000;
+}
+
+#best-results {
+  text-shadow: 1px 1px #000000;
+}
+/* end FAQ page*/
+
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
   text-transform: none;
@@ -114,11 +180,20 @@ label {
   background: linear-gradient(#1F1F1F, #009FE2);
 }
 
+#ast_instagram {
+  background: url(https://oregonbaba.com/wp-content/uploads/2018/11/website-bckgrnd-V3-min.png);
+  border-radius: 50px;
+  padding: 80px;
+  margin-top: 40px;
+}
+
+
+
 .nivoSlider img {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
+  margin-top: 45px;
   left: 0%;
 }
 
@@ -148,12 +223,9 @@ label {
   margin-top: 4%;
 }
 
-#percentage {
-  width: 85px;
-}
 
 #we-believe-text {
-font-size: 55px;
+  font-size: 55px;
   float: left; 
   padding-right: 8px;
 }
@@ -268,74 +340,279 @@ body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-lig
   margin-top:-1px;
 }
 
+/*
 .head_inner {
   margin: auto;
   float: none;
   width: 0px;
 }
+*/
 
 .woocommerce-result-count, .woocommerce-ordering {
   display: none;
 }
 
+/*div.textwidget.widget-text {
+background-color: #009DDF;
+padding-top:0%;
+}*/
+
+#instagram-embed-0 {margin: auto !important;}
+
+#instagram-embed-1 {margin: auto !important;}
+
+.insta-blocks {
+background-color: white !important;
+}
+
+.has_trans_header.home #topmenu {
+  float: none;
+}
+#topmenu {
+  text-align: center;
+}
+
+.midrow_blocks_wrap {
+  margin-top: 35px;
+}
+
+#home-logo-wrappper {
+  width: 100%; 
+  background-color: #1F1F1F;
+  text-align: center;
+}
+
+#home-logo-gif {
+  margin-top: 50px; 
+  width: 400px;
+}
+
+/* custom rating page */
+p.stars a {
+  position: relative;
+  height: 1em;
+  width: 1em;
+  text-indent: -999em;
+  display: inline-block;
+  text-decoration: none;
+}
+  
+p.stars a::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  font-family: WooCommerce;
+  content: '\e021';
+  text-indent: 0;
+}
+
+p.stars a {
+  position: relative;
+  height: 1em;
+  width: 1em;
+  text-indent: -999em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+p.stars a::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  font-family: WooCommerce;
+  content: '\e021';
+  text-indent: 0;
+}
+
+p.stars a:hover~a::before {
+  content:'\e021';
+}
+
+p.stars:hover a::before {
+  content:'\e020';
+}
+
+p.stars.selected a.active::before {
+  content:'\e020';
+}
+
+p.stars.selected a.active~a::before {
+  content:'\e021';
+}
+
+p.stars.selected a:not(.active)::before {
+  content: '\e020';
+}
+
+#kit-review-title {
+  font-size: 42px; 
+  padding-top: 80px; 
+  text-align:center;
+}
+
+#review_form_wrapper {
+  margin: 0 40px;
+}
+
+#rating {
+  display: none;
+}
+
+.comment-notes, .form-allowed-tags, .comment-form-comment label {
+  display: block; 
+}
+
+.logged-in .comment-form-comment textarea {
+  float: left;
+  margin-bottom: 20px;
+
+}
+
+.comment-form-comment textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  /*padding: 2%;*/
+}
+
+#comment {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#submit {
+  float: left;
+  padding: .618em 1em;
+  font-weight: 700;
+  border-radius: 3px;
+  color: white !important;
+}
+
+#respond {
+  width: 75% !important;
+}
+
+/* hide 'additional information' tab */
+li.additional_information_tab {
+  display: none !important;
+}
+
+/* hide 'description' label on single product page */
+#tab-description h2 {
+  display: none !important;
+}
+
+/* frontpage social media links widget */
+.ast_scoial_widget {
+  background-color: #009FE2;
+}
+/* end social widget */
+
+/* sticky button */
+#ssb-container {
+  font-weight: 600;
+  width: 142px; 
+}
+
+#ssb-btn-0 {
+  padding-left: 5px;
+}
+/* end sticky button */
+
+/* fix nav bar */
+#topmenu ul li {
+  line-height: 4px;
+}
+  
+
+
+
+@media screen and (max-width: 1134px) {
+  #stacked-kits-text {
+    float: none !important;
+  }
+}
 
 @media only screen and (max-width: 1080px) {
   #potencyTherm {
-      width: 35%;
-}
-  #calc-wrapper {
-      width: 30%;
-}
-}
-@media screen and (max-width: 960px) {
-  .head_inner {
-      width: 100%;
+    width: 35%;
   }
 }
+
+@media screen and (max-width: 960px) {
+  .head_inner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  #stacked-kits {
+    width: 100% !important;
+  }
+  #stacked-kits-text {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  #ast_instagram {
+    padding: 80px 40px;
+  }
+}  
+
 @media only screen and (max-width: 800px) {
   #potencyTherm {
-      width: 45%;
-}
-  #calc-wrapper {
-    width: 39%;
-}
+    width: 45%;
+  }
   #we-believe-text {
     font-size: 40px;
     padding-right: 12px;
+  }
 }
+
+@media screen and (max-width: 754px) {
+  #ast_instagram {
+    padding: 80px 20px;
+  }
+}
+
+@media screen and (max-width: 704px) {
+  #ast_instagram {
+    padding: 50px 10px;
+  }
 }
 
 @media only screen and (max-width: 630px) {
   .widget_slider_content {
     display: none;
-}
+  }
 }
 
 @media only screen and (max-width: 618px) {
   #we-believe-text {
     float: none;
     text-align: center;
-}
+  }
   #optimizer_front_text-36 .text_block {
     padding-top: 20%;
-}
+  }
 }
 
 @media only screen and (max-width: 600px) {
   #potencyTherm {
     width: 55%;
-}
-  #calc-wrapper {
-    width: 47%;
-}
+  } 
 }
 
 @media only screen and (max-width: 480px) {
   #potencyTherm {
-      width: 65%;
-  }
-  #calc-wrapper {
-    width: 55%;
+    width: 65%;
   }
   .widgettitle {
     font-size: 28px;
@@ -343,7 +620,7 @@ body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-lig
   #optimizer_front_text-36 .text_block {
     padding-right: 15%;
     padding-left: 15%;
-}
+  }
 }
 
 @media only screen and (max-width: 465px) {
@@ -356,41 +633,45 @@ body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-lig
 @media only screen and (max-width: 442px) {
   #potencyTherm {
     width: 75%;
-}
-  #calc-wrapper {
-    width: 63%;
-}
+  }
 }
 
 @media only screen and (max-width: 418px) {
   #we-believe-text {
     font-size: 36px;
-}
+  }
   #optimizer_front_text-36 .text_block {
     padding-top: 35%;
-}
+  }
   #form-submit {
     width: 100%;
-}
+  }
   #recaptcha {
     padding: 5px;
-}
+  }
   #createconsumeenjoy {
     font-size: 42px;
+  }
 }
+
+@media screen and (max-width: 370px) {
+  #calc-wrapper {
+    width: auto;
+    margin: 0px 20px;
+  }
 }
 
 @media only screen and (max-width: 358px) {
   #ast_instagram.widget_insta_medium li {
     width: 130px;
-}
+  }
   #ast_instagram.widget_insta_medium li img {
     width: 130px;
-}	
+  }	
 }
 
 @media only screen and (max-width: 340px) {
   #we-believe-text {
     font-size: 36px;
-}
+  }
 }
