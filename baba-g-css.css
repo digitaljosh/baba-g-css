@@ -6,12 +6,22 @@
   padding: 0px 0px 30px 0px;
 }
 div.textwidget.widget-text {
-  background-color: #009FE3;
+  /*background-color: #009FE3;*/
+  background-color: #ffffff;
   padding-top: 4%;
   /*background-image: url(https://oregonbaba.com/wp-content/uploads/2017/09/BABAG_SHEET_WRAP-V2.png);*/
   padding-bottom: 50px;
 }
 
+/* hide loading spinner */
+.pace {
+  display: none;
+}
+
+/* hide nav underline on hover */
+#topmenu ul.menu>li:after, #frontsidebar .widget_nav_menu ul.menu>li:after {
+  display: none;
+}
 
 
 
@@ -23,15 +33,16 @@ div.textwidget.widget-text {
   margin: 10px auto;
   padding: 20px 20px 10px;
   position:relative;
-  background: rgba(0,0,0,0.3);
+  /*background: rgba(0,0,0,0.3);*/
+  background: rgba(0,158,226,0.7);
   border-radius: 3px;
   box-shadow:  0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+-webkit-appearance: none; 
+margin: 0; 
 }
 
 #percentage {
@@ -42,7 +53,7 @@ input[type=number]::-webkit-outer-spin-button {
   left: auto;*/
   padding: 10px 10px;
   background: rgba(0, 0, 0, 0.2);
-  font-size: 27px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 40px;
   color: white;
@@ -60,7 +71,7 @@ input[type=number]::-webkit-outer-spin-button {
   left: auto;*/
   padding: 10px 10px;
   background: rgba(0, 0, 0, 0.2);
-  font-size: 27px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 40px;
   color: white;
@@ -94,12 +105,14 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #calc-input-wrapper {
-  text-align: center;
+text-align: center;
 }
 
 
-
-
+/* menu cart popup if no items in cart */
+#optimizer_minicart {
+  background-color: #A9A9A9 !important;
+}
 
 .woocommerce .addresses .title .edit, .woocommerce-page .addresses .title .edit {
   font-size: 16px;
@@ -112,12 +125,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .thn_post_wrap a:link {
-  color: #038e0f;
+color: #038e0f;
 }
 
 div.woocommerce {
-  background-color: #ffffff;
-  opacity: .9;
+background-color: #ffffff;
+opacity: .9;
   padding: 20px 20px;
 }
 
@@ -132,8 +145,8 @@ div.woocommerce {
 }
 
 .woocommerce form.login, .woocommerce form.register {
-  background-color: #ffffff;
-  opacity: .95;
+background-color: #ffffff;
+opacity: .95;
 }
 
 /*#theyrecreated {
@@ -143,27 +156,75 @@ text-shadow: 1px 1px #22a332
 
 /* FAQ Page */
 #createconsumeenjoy {
-  text-shadow: 1px 1px #22a332;
+  text-shadow: 1px 1px #FFD020;
   font-size: 64px;
   color: #000;
 }
 
 #add-fav-oils {
-  text-shadow: 1px 1px #000;
+text-shadow: 3px 2px #000;
 }
 
 #best-results {
-  text-shadow: 1px 1px #000000;
+text-shadow: 1px 1px #000000;
 }
-/* end FAQ page*/
+#sixty-four {
+  font-size: 68px; 
+  color: #ffd020;
+  text-shadow: 3px 2px #000;
+}
 
+#pieces-per-batch {
+  font-size: 20px;
+}
+
+#seventy-percent {
+  font-size: 68px; 
+  color: #ffd020;
+  text-shadow: 3px 2px #000;
+}
+
+#less-expensive {
+  font-size: 20px;
+}
+
+#one-to-fifteen {
+  font-size: 64px; 
+  color: #ffd020;
+  text-shadow: 3px 2px #000;
+}
+
+#customized-mgs {
+  font-size: 20px;
+}
+
+#one {
+  font-size: 68px; 
+  color: #ffd020;
+  text-shadow: 3px 2px #000;
+}
+
+#hour-or-less-to-make {
+  font-size: 20px;
+}
+
+/* end FAQ page */
+
+
+
+/* Contact Page
+#content {
+  padding-top: 50px;
+  background-image: url(https://oregonbaba.com/wp-content/uploads/2017/09/website-bckgrnd-V3.png)!important;
+}
+*/
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
-  text-transform: none;
+text-transform: none;
 }
 
 .static_gallery.slideshow_loading img {
-  height: 800px;
+height: 800px;
 }
 
 label {
@@ -177,7 +238,8 @@ label {
 }
 
 .ast_instagram_widget {
-  background: linear-gradient(#1F1F1F, #009FE2);
+  /*background: linear-gradient(#1F1F1F, #009FE2);*/
+  background-color: #ffffff;
 }
 
 #ast_instagram {
@@ -237,7 +299,7 @@ label {
 
 
 .woocommerce .entry-summary .product_meta > span {
-  display: none;
+display: none;
 }
 
 body {
@@ -257,32 +319,32 @@ div#footer.footer_center {
 }
 
 #optimizer_front_map-11 .home_title {
-  font-size: 2em;
+font-size: 2em;
 }
 
 #optimizer_front_text-36 .text_block {
-  padding-top: 10%;
+padding-top: 10%;
 }
 
 .slider_inner {
-  background-color: #1F1F1F;
+background-color: #1F1F1F;
   padding-top: 2.5%;
 }
 
 #copyright {
-  display: none;
+display: none;
 }
 
 .home_action_button {
-  padding: 0px;
+padding: 0px;
 }
 
 #optimizer_front_cta-8 .button_flat {
-  border-color: #ffffff;
+border-color: #ffffff;
 }
 
 #optimizer_front_cta-8 .home_action_button a {
-  padding: 10px 18px;
+padding: 10px 18px;
 }
 
 #optimizer_front_cta-8 .home_action {
@@ -294,8 +356,8 @@ div#footer.footer_center {
 }
 
 #simple-menu {
-  top: 0px;
-  color: #000000;
+top: 0px;
+color: #000000;
 }
 
 .thn_post_wrap a:link {
@@ -323,13 +385,13 @@ div#footer.footer_center {
 }
 
 .wpcf7-form {
-  width: 500px;
-  margin: auto;
-  max-width: 100%;
+width: 500px;
+margin: auto;
+max-width: 100%;
 }
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
-  padding: 10px 10px 15px;
+padding: 10px 10px 15px;
 }
 
 .logged-in div.wpcf7 {
@@ -357,17 +419,22 @@ background-color: #009DDF;
 padding-top:0%;
 }*/
 
-#instagram-embed-0 {margin: auto !important;}
+#instagram-embed-0 {
+  margin: auto !important;
+}
 
-#instagram-embed-1 {margin: auto !important;}
+#instagram-embed-1 {
+  margin: auto !important;
+}
 
 .insta-blocks {
-background-color: white !important;
+  background-color: white !important;
 }
 
 .has_trans_header.home #topmenu {
   float: none;
 }
+
 #topmenu {
   text-align: center;
 }
@@ -378,14 +445,89 @@ background-color: white !important;
 
 #home-logo-wrappper {
   width: 100%; 
-  background-color: #1F1F1F;
+  /*background-color: #1F1F1F;*/
+  background-color: #ffffff;
   text-align: center;
 }
 
 #home-logo-gif {
-  margin-top: 50px; 
+  margin-top: 90px; 
   width: 400px;
 }
+
+.header {
+  /*background-color: transparent!important;*/
+  background-color: #ffffff !important;
+}
+
+/* front page kit and text */
+#dieline-kit-image {
+  background-color: #FFB0E0; 
+  width: 100%; 
+  padding-bottom: 30px;  
+  margin-top: 80px;
+}
+
+#front-page-title-div {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+#front-page-kit-image-title {
+  font-size: 58px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#just-add-cannabis {
+  font-size: 26px; 
+  color: white; 
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/*
+#dieline-kit-image {
+  margin-top: 80px;
+}
+
+
+#front-page-kit {
+  float: left; 
+  width: 50%;
+}
+
+#front-page-kit-image {
+  max-width: none; 
+  width: 120%;
+}
+
+#front-page-text {
+  width: 50%; 
+  float: right;
+}
+
+#front-page-title {
+  text-align: left; 
+  font-size: 54px; 
+  line-height: 85px; 
+  font-style: italic;
+}
+
+#front-page-p {
+  font-size: 22px;
+}
+
+#add-concentrate-div {
+  clear: both;
+}
+*/
+
+
 
 /* custom rating page */
 p.stars a {
@@ -510,7 +652,8 @@ li.additional_information_tab {
 
 /* frontpage social media links widget */
 .ast_scoial_widget {
-  background-color: #009FE2;
+  /*background-color: #009FE2;*/
+  background-color: #ffffff;
 }
 /* end social widget */
 
@@ -527,151 +670,304 @@ li.additional_information_tab {
 
 /* fix nav bar */
 #topmenu ul li {
-  line-height: 4px;
+  line-height: 20px;
+}
+
+/* About Us */
+.about-us-page-quotes {
+  margin-top: 40px; 
+  background-color: #000; 
+  text-align: center; 
+  font-size: 78px; 
+  font-weight: 600; 
+  text-shadow: 2px 1px #ffd020; 
+  font-style: italic; 
+  color: #ffffff; 
+  padding-top: 120px; 
+  padding-bottom: 120px; 
+  padding-left: 200px; 
+  padding-right: 200px;
+}
+
+.about-us-page-text-blocks {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Footer */
+#custom_html-38 {
+  float: left;
+}
+#custom_html-40 {
+  float: right;
+}
+#footer .center {
+ width: 80%;
+}
+#footer .widgets .widget {
+  width: 33%;
+  margin: 0;
 }
   
 
-
+/* Adjusts front page kit image for larger displays */
+@media screen and (min-width: 1367px) {
+  #dieline-kit-image {
+      width: 1200px;
+      margin: 80px auto;
+  }
+}	
 
 @media screen and (max-width: 1134px) {
   #stacked-kits-text {
-    float: none !important;
+      float: none !important;
   }
 }
 
 @media only screen and (max-width: 1080px) {
   #potencyTherm {
-    width: 35%;
+      width: 35%;
   }
 }
 
 @media screen and (max-width: 960px) {
   .head_inner {
-    width: 100%;
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  /*#front-page-title {
+      font-size: 44px;
+      line-height: 65px;
+  }*/
+  #front-page-kit-image-title {
+      font-size: 50px;
   }
 }
 
 @media screen and (max-width: 875px) {
   #stacked-kits {
-    width: 100% !important;
+      width: 100% !important;
   }
   #stacked-kits-text {
-    margin-left: 0px !important;
+      margin-left: 0px !important;
   }
 }
 
 @media screen and (max-width: 854px) {
   #ast_instagram {
-    padding: 80px 40px;
+      padding: 80px 40px;
   }
 }  
 
 @media only screen and (max-width: 800px) {
   #potencyTherm {
-    width: 45%;
+      width: 45%;
   }
   #we-believe-text {
-    font-size: 40px;
-    padding-right: 12px;
+      font-size: 40px;
+  padding-right: 12px;
+  }
+  /*#front-page-title {
+      font-size: 40px;
+      line-height: 65px;
+  }*/
+  #front-page-kit-image-title {
+      font-size: 44px;
   }
 }
 
 @media screen and (max-width: 754px) {
   #ast_instagram {
-    padding: 80px 20px;
+      padding: 80px 20px;
   }
+  #front-page-kit-image-title {
+      font-size: 38px;
+  }
+  #just-add-cannabis {
+      font-size: 22px;
+  }
+  
 }
 
 @media screen and (max-width: 704px) {
   #ast_instagram {
-    padding: 50px 10px;
+      padding: 50px 10px;
+  }
+  #front-page-title {
+      padding-left: 5px;
+  }
+  
+}
+
+@media screen and (max-width: 675px) {
+  #front-page-title {
+      font-size: 36px;
+  }
+  #front-page-p {
+      font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 641px) {
+  #front-page-p {
+      font-size: 18px;
+  }
+  #front-page-kit-image {
+      margin-left: -70px;
   }
 }
 
 @media only screen and (max-width: 630px) {
   .widget_slider_content {
-    display: none;
+      display: none;
   }
 }
 
 @media only screen and (max-width: 618px) {
   #we-believe-text {
-    float: none;
-    text-align: center;
+      float: none;
+      text-align: center;
   }
   #optimizer_front_text-36 .text_block {
-    padding-top: 20%;
+      padding-top: 20%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #potencyTherm {
-    width: 55%;
+      width: 55%;
   } 
+  #front-page-title {
+      padding-top: 0px;
+      line-height: 65px;
+      letter-spacing: -1.5px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #front-page-kit {
+      width: 100%;
+  }
+  #front-page-kit-image {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0px;
+  }
+  #front-page-text {
+      width: 100%;
+      float: none;
+  }
+  #front-page-title {
+      text-align: center;
+      line-height: 55px;
+      font-size: 52px;
+  }
+  #add-concentrate-div {
+      margin-top: -20px;
+  }
+  #front-page-p {
+      font-size: 28px;
+  }
+}
+
+
+@media screen and (max-width: 510px) {
+  #overlay-content {
+      top: 40px;
+  }
+  .canvas-overlay {
+      width: 320px;
+      height: 215px;
+      margin-top: 0px;
+  }
+  canvas {
+      width: 320px;
+      margin-top: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   #potencyTherm {
-    width: 65%;
+      width: 65%;
   }
   .widgettitle {
-    font-size: 28px;
+      font-size: 28px;
   }
   #optimizer_front_text-36 .text_block {
-    padding-right: 15%;
-    padding-left: 15%;
+padding-right: 15%;
+      padding-left: 15%;
   }
 }
 
 @media only screen and (max-width: 465px) {
   .frontpage_sidebar .ast_instagram_widget .widget_wrap {
-    padding-right: 0px;
-    padding-left: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+  #front-page-p {
+      font-size: 28px;
+      letter-spacing: -1px;
   }
 }
 
 @media only screen and (max-width: 442px) {
   #potencyTherm {
-    width: 75%;
+      width: 75%;
   }
 }
 
 @media only screen and (max-width: 418px) {
   #we-believe-text {
-    font-size: 36px;
+      font-size: 36px;
   }
   #optimizer_front_text-36 .text_block {
-    padding-top: 35%;
+      padding-top: 35%;
   }
   #form-submit {
-    width: 100%;
+      width: 100%;
   }
   #recaptcha {
-    padding: 5px;
+  padding: 5px;
   }
   #createconsumeenjoy {
-    font-size: 42px;
+  font-size: 42px;
+  }
+  #front-page-p {
+      font-size: 28px;
   }
 }
 
 @media screen and (max-width: 370px) {
   #calc-wrapper {
-    width: auto;
-    margin: 0px 20px;
+  width: auto;
+      margin: 0px 20px;
   }
 }
 
 @media only screen and (max-width: 358px) {
   #ast_instagram.widget_insta_medium li {
-    width: 130px;
+      width: 130px;
   }
   #ast_instagram.widget_insta_medium li img {
-    width: 130px;
+      width: 130px;
   }	
 }
 
+@media screen and (max-width: 348px) {
+  #front-page-title {
+      font-size: 42px;
+  }
+  #front-page-p {
+      padding: 0px 10px;
+  }
+}
+
+
 @media only screen and (max-width: 340px) {
   #we-believe-text {
-    font-size: 36px;
+      font-size: 36px;
   }
 }
