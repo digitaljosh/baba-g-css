@@ -15,6 +15,7 @@ div.textwidget.widget-text {
 
 /* hide loading spinner */
 .pace {
+
   display: none;
 }
 
@@ -732,9 +733,75 @@ li.additional_information_tab {
   font-size: 18px;
 }
 #copyright a:hover {
-  color: #404040;
+  color: #ffffff;
 }
-  
+#footer-social-icon-wrapper {
+  padding-left: 20px;
+}
+#terms-policy-wrapper ul li a:hover {
+  color: #ffffff !important;
+}
+
+
+/* Checkout Page */
+.woocommerce-form-coupon-toggle .woocommerce-info {
+  border-top: 3px solid #FFD020 !important;
+  padding: 1em 0em 1em 0em;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+/* coupon code on checkout page */
+.woocommerce-form-coupon-toggle .woocommerce-info::before {
+  position: relative;
+  top: 0;
+  left: 0;
+  content: '\e03d';
+}
+
+.woocommerce form.checkout_coupon {
+  width: fit-content;
+}
+
+.woocommerce form .form-row input.input-text {
+  padding: 16px;
+  height: 40px;
+}
+
+/* State selector */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 40px;
+}
+
+.select2-container--default .select2-selection--single {
+  height: 40px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 33px;
+}    
+
+.woocommerce-terms-and-conditions-checkbox-text {
+  font-size: 16px;
+}
+
+.woocommerce-billing-fields h3, #order_review_heading {
+  font-size: 66px;
+  color: #ffd020;
+  text-shadow: 1px 1px 1px black;
+  margin: 0px;
+}
+
+#shipping_method label {
+  font-size: 16px;
+}
+
+#customer_details .col-2 {
+  margin-top: 44px;
+}
+
+
+
 
 /* Adjusts front page kit image for larger displays */
 @media screen and (min-width: 1367px) {
@@ -795,6 +862,16 @@ li.additional_information_tab {
       padding: 80px 40px;
   }
 }  
+
+@media screen and (max-width: 854px) {
+  .woocommerce-billing-fields h3, #order_review_heading {
+      font-size:50px;
+  }
+  #customer_details .col-2 {
+      margin-top: 16px;
+  }
+}
+
 
 @media only screen and (max-width: 800px) {
   #potencyTherm {
@@ -962,6 +1039,9 @@ li.additional_information_tab {
   #copyright {
       margin-top: 170px;
   }
+  .terms-policy-links {
+      font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 510px) {
@@ -1037,6 +1117,15 @@ padding-right: 15%;
   }
 }
 
+@media screen and (max-width: 360px) {
+  .woocommerce table.shop_table {
+      padding: 0px 5px;
+  }
+  #shipping_method label {
+      font-size: 11px;
+  }
+}
+
 @media only screen and (max-width: 358px) {
   #ast_instagram.widget_insta_medium li {
       width: 130px;
@@ -1059,5 +1148,9 @@ padding-right: 15%;
 @media only screen and (max-width: 340px) {
   #we-believe-text {
       font-size: 36px;
+  }
+  .woocommerce-form-coupon-toggle .woocommerce-info {
+      width: 260px;
+      font-size: 13px;
   }
 }
