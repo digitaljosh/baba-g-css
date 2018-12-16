@@ -24,6 +24,10 @@ div.textwidget.widget-text {
   display: none;
 }
 
+button, .button {
+  background-color: #ffcb08 !important;
+  text-shadow: 1px 1px 1px black;
+}
 
 
 /* Potency Calculator */
@@ -38,6 +42,9 @@ div.textwidget.widget-text {
   background: rgba(0,158,226,0.7);
   border-radius: 3px;
   box-shadow:  0px 10px 15px rgba(0, 0, 0, 0.2);
+  /*  updates */
+  margin-top: 50px;
+  border-radius: 23px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -62,6 +69,9 @@ margin: 0;
   text-align: right;
   letter-spacing: 1px;
   margin: 10px 0px 10px 0px;
+  background: lightgray;
+  text-shadow: 1px 1px 1px white;
+  border-radius: 23px;
 }
 
 #grams {
@@ -79,19 +89,24 @@ margin: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   text-align: right;
   letter-spacing: 1px;
+  background: lightgray;
+  text-shadow: 1px 1px 1px white;
+  border-radius: 23px;
 }
 
 #button {
   margin-top: 20px;
   margin-bottom: 10px;
   /*height: 45px;*/
-  border-radius: 3px;
+  border-radius: 23px;
   cursor: pointer;
   padding: 13px;
   font-size: 15px;
   font-weight: 600;
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
+  background-color: #ffcb08;
+  text-shadow: 1px 1px 1px black;
 }
 
 #button:hover { 
@@ -103,6 +118,8 @@ margin: 0;
   /*margin-top: -10px;*/
   font-size: 28px;
   color: white;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 600;
 }
 
 #calc-input-wrapper {
@@ -172,7 +189,7 @@ text-shadow: 1px 1px #000000;
 #sixty-four {
   font-size: 68px; 
   color: #ffd020;
-  text-shadow: 3px 2px #000;
+  text-shadow: 3px 2px 6px #000;
 }
 
 #pieces-per-batch {
@@ -182,7 +199,7 @@ text-shadow: 1px 1px #000000;
 #seventy-percent {
   font-size: 68px; 
   color: #ffd020;
-  text-shadow: 3px 2px #000;
+  text-shadow: 3px 2px 6px #000;
 }
 
 #less-expensive {
@@ -192,7 +209,7 @@ text-shadow: 1px 1px #000000;
 #one-to-fifteen {
   font-size: 64px; 
   color: #ffd020;
-  text-shadow: 3px 2px #000;
+  text-shadow: 3px 2px 6px #000;
 }
 
 #customized-mgs {
@@ -202,7 +219,7 @@ text-shadow: 1px 1px #000000;
 #one {
   font-size: 68px; 
   color: #ffd020;
-  text-shadow: 3px 2px #000;
+  text-shadow: 3px 2px 6px #000;
 }
 
 #hour-or-less-to-make {
@@ -213,12 +230,16 @@ text-shadow: 1px 1px #000000;
 
 
 
-/* Contact Page
-#content {
-  padding-top: 50px;
-  background-image: url(https://oregonbaba.com/wp-content/uploads/2017/09/website-bckgrnd-V3.png)!important;
+/* Contact Page */ 
+#recaptcha {
+  float: left;
 }
-*/
+
+#form-submit {
+  background-color: #ffcb08;
+  text-shadow: 1px 1px 1px #000000;
+}
+
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
 text-transform: none;
@@ -669,6 +690,19 @@ li.additional_information_tab {
 #ssb-btn-0 {
   padding-left: 5px;
 }
+
+.ssb-share-btn a {
+  color: white !important;
+  text-shadow: 1px 1px 1px black;
+}
+
+#ssb-btn-0 a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
 /* end sticky button */
 
 /* fix nav bar */
@@ -697,6 +731,96 @@ li.additional_information_tab {
   line-height: 1.5;
 }
 
+
+
+/* product gallery adjustments */
+
+/* refill */
+.post-191 a div img {
+  width: 83% !important;
+  margin-top: 18px !important;
+}
+
+.post-191 a h2 {
+  margin-top: 40px !important;
+  margin-left: 33px !important;
+} 
+
+.post-191 a .star-rating {
+  margin-left: 33px !important;
+}
+
+.post-191 a .price {
+  margin-left: 33px;
+  margin-top: 10px;
+  font-size: 18px !important;
+}
+
+.post-191 .add_to_cart_button {
+  margin-left: 33px !important;
+}
+
+
+/* kit */
+.post-140 a h2 {
+  margin-left: 53px !important;
+}
+
+.post-140 a .star-rating {
+  margin-left: 53px !important;
+}
+
+.post-140 a .price {
+  margin-left: 53px;
+  margin-top: 10px;
+  font-size: 18px !important;
+}
+
+.post-140 .add_to_cart_button {
+  margin-left: 53px !important;
+}
+
+/* product title */
+.woocommerce div.product .product_title {
+  color: #009EE2;
+}
+.woocommerce.single-product .entry-summary p.price {
+  color: #39B54B;
+}
+
+
+
+/* Refill pack page text */
+#nineteen-ninety-nine {
+  padding-left: 16px;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #77A464;
+  font-weight: 600;
+}
+#plus-twenty-five-dollar {
+  width: 200px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #77A464;
+  font-weight: 600;
+}
+#dollar-total {
+  margin-top: 6px;
+  padding-left: 16px;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #77A464;
+  font-weight: 600;
+}
+#cents-per-piece {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  text-shadow: 1px 1px 1px #009EE2;
+  margin-bottom: 50px;
+}
+
+
 /* Footer */
 #custom_html-38 {
   float: left;
@@ -705,7 +829,7 @@ li.additional_information_tab {
   float: right;
 }
 #footer .center {
- width: 80%;
+  width: 80%;
 }
 #footer .widgets .widget {
   width: 33%;
@@ -740,6 +864,12 @@ li.additional_information_tab {
 }
 #terms-policy-wrapper ul li a:hover {
   color: #ffffff !important;
+}
+
+/* kit page */
+/* star rating color */
+.woocommerce .star-rating span, .woocommerce-page .star-rating span {
+  color: #FFD020;
 }
 
 
@@ -802,41 +932,57 @@ li.additional_information_tab {
 
 
 
+/* add to cart button style */
+.woocommerce div.product form.cart .button {
+  text-shadow: 1px 1px 1px black;
+}
+
 
 /* Adjusts front page kit image for larger displays */
 @media screen and (min-width: 1367px) {
   #dieline-kit-image {
-      width: 1200px;
-      margin: 80px auto;
+    width: 1200px;
+    margin: 80px auto;
   }
 }	
 
 @media screen and (max-width: 1134px) {
   #stacked-kits-text {
-      float: none !important;
+      /*float: none !important;*/
   }
 }
 
 @media only screen and (max-width: 1080px) {
   #potencyTherm {
-      width: 35%;
+    width: 35%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   #footer-contact-wrapper {
-      padding-right: 45px;
+    padding-right: 45px;
   }
   #terms-policy-wrapper {
-      padding-left: 45px;
+    padding-left: 45px;
   }
 }
 
 @media screen and (max-width: 960px) {
   .head_inner {
-      width: 100%;
+    width: 100%;
   }
 }
+
+@media screen and (max-width: 924px) {
+  #stacked-kits-text { 
+    padding-top: 0px;
+  }
+  #contents-of-box-list {
+    margin-top: -20px; 
+    line-height: 1;
+  }
+}
+
 
 @media screen and (max-width: 910px) {
   /*#front-page-title {
@@ -844,242 +990,271 @@ li.additional_information_tab {
       line-height: 65px;
   }*/
   #front-page-kit-image-title {
-      font-size: 50px;
+    font-size: 50px;
   }
 }
 
 @media screen and (max-width: 875px) {
   #stacked-kits {
-      width: 100% !important;
+    width: 100% !important;
   }
   #stacked-kits-text {
-      margin-left: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
   }
 }
 
 @media screen and (max-width: 854px) {
   #ast_instagram {
-      padding: 80px 40px;
+    padding: 80px 40px;
   }
 }  
 
 @media screen and (max-width: 854px) {
   .woocommerce-billing-fields h3, #order_review_heading {
-      font-size:50px;
+    font-size:50px;
   }
   #customer_details .col-2 {
-      margin-top: 16px;
+    margin-top: 16px;
   }
 }
 
 
 @media only screen and (max-width: 800px) {
   #potencyTherm {
-      width: 45%;
+    width: 45%;
   }
   #we-believe-text {
-      font-size: 40px;
-  padding-right: 12px;
+    font-size: 40px;
+    padding-right: 12px;
   }
   /*#front-page-title {
       font-size: 40px;
       line-height: 65px;
   }*/
   #front-page-kit-image-title {
-      font-size: 44px;
+    font-size: 44px;
+  }
+  /* product gallery refill text info */
+  .post-191 a h2 {
+    margin-top: 25px !important;
   }
 }
 
 @media screen and (max-width: 780px) {
   #footer .widgets .widget {
-      width: 33% /*!important*/;
+    width: 33% /*!important*/;
   }
 }
 
 @media screen and (max-width: 760px) {
   #terms-policy-wrapper {
-      line-height: 1;
+    line-height: 1;
   }
   #footer-letter-image {
-      width: 30%;
+    width: 30%;
   }
 }
 
 @media screen and (max-width: 754px) {
   #ast_instagram {
-      padding: 80px 20px;
+    padding: 80px 20px;
   }
   #front-page-kit-image-title {
-      font-size: 38px;
+    font-size: 38px;
   }
   #just-add-cannabis {
-      font-size: 22px;
+    font-size: 22px;
   }
   
 }
 
 @media screen and (max-width: 704px) {
   #ast_instagram {
-      padding: 50px 10px;
+    padding: 50px 10px;
   }
   #front-page-title {
-      padding-left: 5px;
+    padding-left: 5px;
   }
 }
 
+@media screen and (max-width: 680px) {
+  /* product gallery refill text info */
+  .post-191 a h2 {
+    margin-top: 20px !important;
+  }
+}
+  
+
 @media screen and (max-width: 675px) {
   #front-page-title {
-      font-size: 36px;
+    font-size: 36px;
   }
   #front-page-p {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
 
 
 @media screen and (max-width: 641px) {
   #front-page-p {
-      font-size: 18px;
+    font-size: 18px;
   }
   #front-page-kit-image {
-      margin-left: -70px;
+    margin-left: -70px;
   }
   .terms-policy-links {
-      font-size: 14px;
+    font-size: 14px;
   }
   #footer-contact-title {
-      font-size: 12px;
+    font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 630px) {
   .widget_slider_content {
-      display: none;
+    display: none;
   }
 }
 
 @media only screen and (max-width: 618px) {
   #we-believe-text {
-      float: none;
-      text-align: center;
+    float: none;
+    text-align: center;
   }
   #optimizer_front_text-36 .text_block {
-      padding-top: 20%;
+    padding-top: 20%;
+  }
+  /* product gallery refill text info */
+  .post-191 a h2 {
+    margin-top: 13px !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #potencyTherm {
-      width: 55%;
+    width: 55%;
   } 
   #front-page-title {
-      padding-top: 0px;
-      line-height: 65px;
-      letter-spacing: -1.5px;
+    padding-top: 0px;
+    line-height: 65px;
+    letter-spacing: -1.5px;
   }
 }
 
 @media screen and (max-width: 530px) {
   #front-page-kit {
-      width: 100%;
+    width: 100%;
   }
   #front-page-kit-image {
-      width: 100%;
-      max-width: 100%;
-      margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
   }
   #front-page-text {
-      width: 100%;
-      float: none;
+    width: 100%;
+    float: none;
   }
   #front-page-title {
-      text-align: center;
-      line-height: 55px;
-      font-size: 52px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 52px;
   }
   #add-concentrate-div {
-      margin-top: -20px;
+    margin-top: -20px;
   }
   #front-page-p {
-      font-size: 28px;
+    font-size: 28px;
   }
 }
 
 /* Footer */
 @media screen and (max-width: 521px) {
   #terms-policy-wrapper {
-      text-align: center;
-      padding-left: 0px;
+    text-align: center;
+    padding-left: 0px;
   }
   #custom_html-38 {
-      width: 100% !important;
+    width: 100% !important;
   }
   #custom_html-39 {
-      width: auto !important;
-      position: absolute;
-      top: 270px;
-      left: 0;
-      margin: auto;
-      background-color: #009EE2;
+    width: auto !important;
+    position: absolute;
+    top: 270px;
+    left: 0;
+    margin: auto;
+    background-color: #009EE2;
   }
   #footer-image-wrapper {
-      padding: 0px 80px;
+    padding: 0px 80px;
   }
   #custom_html-40 {
-      width: 100% !important;
+    width: 100% !important;
   }
   #footer-letter-image {
-      width: auto;
+    width: auto;
   }
   #footer-contact-wrapper {
-      padding: 0px;
-      text-align: center;
-      margin-top: 30px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 30px;
   }
   #copyright {
-      margin-top: 170px;
+    margin-top: 170px;
   }
   .terms-policy-links {
-      font-size: 22px;
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 510px) {
   #overlay-content {
-      top: 40px;
+    top: 40px;
   }
   .canvas-overlay {
-      width: 320px;
-      height: 215px;
-      margin-top: 0px;
+    width: 320px;
+    height: 215px;
+    margin-top: 0px;
   }
   canvas {
-      width: 320px;
-      margin-top: 0px !important;
+    width: 320px;
+    margin-top: 0px !important;
+  }
+  .post-191 a h2 {
+    margin-top: 9px !important;
   }
 }
 
 @media only screen and (max-width: 480px) {
   #potencyTherm {
-      width: 65%;
+    width: 65%;
   }
   .widgettitle {
-      font-size: 28px;
+    font-size: 28px;
   }
   #optimizer_front_text-36 .text_block {
-padding-right: 15%;
-      padding-left: 15%;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  .post-191 a div img {
+    width: auto !important;
   }
 }
 
 @media only screen and (max-width: 465px) {
   .frontpage_sidebar .ast_instagram_widget .widget_wrap {
-      padding-right: 0px;
-      padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   #front-page-p {
-      font-size: 28px;
-      letter-spacing: -1px;
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+  #recaptcha {
+    float: none;
+  }
+  #form-submit {
+    width: 100%;
   }
 }
 
@@ -1091,38 +1266,38 @@ padding-right: 15%;
 
 @media only screen and (max-width: 418px) {
   #we-believe-text {
-      font-size: 36px;
+    font-size: 36px;
   }
   #optimizer_front_text-36 .text_block {
-      padding-top: 35%;
+    padding-top: 35%;
   }
   #form-submit {
-      width: 100%;
+    width: 100%;
   }
   #recaptcha {
-  padding: 5px;
+    padding: 5px;
   }
   #createconsumeenjoy {
-  font-size: 42px;
+    font-size: 42px;
   }
   #front-page-p {
-      font-size: 28px;
+    font-size: 28px;
   }
 }
 
 @media screen and (max-width: 370px) {
   #calc-wrapper {
-  width: auto;
-      margin: 0px 20px;
+    width: auto;
+    margin: 0px 20px;
   }
 }
 
 @media screen and (max-width: 360px) {
   .woocommerce table.shop_table {
-      padding: 0px 5px;
+    padding: 0px 5px;
   }
   #shipping_method label {
-      font-size: 11px;
+    font-size: 11px;
   }
 }
 
@@ -1147,10 +1322,10 @@ padding-right: 15%;
 
 @media only screen and (max-width: 340px) {
   #we-believe-text {
-      font-size: 36px;
+    font-size: 36px;
   }
   .woocommerce-form-coupon-toggle .woocommerce-info {
-      width: 260px;
-      font-size: 13px;
+    width: 260px;
+    font-size: 13px;
   }
 }
