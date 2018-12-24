@@ -15,8 +15,17 @@ div.textwidget.widget-text {
 
 /* hide loading spinner */
 .pace {
-
   display: none;
+}
+
+/* hide recaptcha sidebar */
+.grecaptcha-badge {
+  display: none;
+}
+
+/* Submit buttons */
+#submit {
+  background-color: #ffcb08 !important;
 }
 
 /* hide nav underline on hover */
@@ -48,9 +57,9 @@ button, .button {
 }
 
 input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
--webkit-appearance: none; 
-margin: 0; 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 #percentage {
@@ -123,7 +132,7 @@ margin: 0;
 }
 
 #calc-input-wrapper {
-text-align: center;
+  text-align: center;
 }
 
 
@@ -143,12 +152,12 @@ text-align: center;
 }
 
 .thn_post_wrap a:link {
-color: #038e0f;
+  color: #038e0f;
 }
 
 div.woocommerce {
-background-color: #ffffff;
-opacity: .9;
+  background-color: #ffffff;
+  opacity: .9;
   padding: 20px 20px;
 }
 
@@ -163,8 +172,8 @@ opacity: .9;
 }
 
 .woocommerce form.login, .woocommerce form.register {
-background-color: #ffffff;
-opacity: .95;
+  background-color: #ffffff;
+  opacity: .95;
 }
 
 /*#theyrecreated {
@@ -180,11 +189,11 @@ text-shadow: 1px 1px #22a332
 }
 
 #add-fav-oils {
-text-shadow: 3px 2px #000;
+  text-shadow: 3px 2px #000;
 }
 
 #best-results {
-text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #000000;
 }
 #sixty-four {
   font-size: 68px; 
@@ -242,11 +251,11 @@ text-shadow: 1px 1px #000000;
 
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
-text-transform: none;
+  text-transform: none;
 }
 
 .static_gallery.slideshow_loading img {
-height: 800px;
+  height: 800px;
 }
 
 label {
@@ -321,7 +330,7 @@ label {
 
 
 .woocommerce .entry-summary .product_meta > span {
-display: none;
+  display: none;
 }
 
 body {
@@ -341,15 +350,15 @@ div#footer.footer_center {
 }
 
 #optimizer_front_map-11 .home_title {
-font-size: 2em;
+  font-size: 2em;
 }
 
 #optimizer_front_text-36 .text_block {
-padding-top: 10%;
+  padding-top: 10%;
 }
 
 .slider_inner {
-background-color: #1F1F1F;
+  background-color: #1F1F1F;
   padding-top: 2.5%;
 }
 
@@ -360,15 +369,15 @@ display: none;
 */
 
 .home_action_button {
-padding: 0px;
+  padding: 0px;
 }
 
 #optimizer_front_cta-8 .button_flat {
-border-color: #ffffff;
+  border-color: #ffffff;
 }
 
 #optimizer_front_cta-8 .home_action_button a {
-padding: 10px 18px;
+  padding: 10px 18px;
 }
 
 #optimizer_front_cta-8 .home_action {
@@ -380,8 +389,8 @@ padding: 10px 18px;
 }
 
 #simple-menu {
-top: 0px;
-color: #000000;
+  top: 0px;
+  color: #000000;
 }
 
 .thn_post_wrap a:link {
@@ -409,13 +418,13 @@ color: #000000;
 }
 
 .wpcf7-form {
-width: 500px;
-margin: auto;
-max-width: 100%;
+  width: 500px;
+  margin: auto;
+  max-width: 100%;
 }
 
 body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
-padding: 10px 10px 15px;
+  padding: 10px 10px 15px;
 }
 
 .logged-in div.wpcf7 {
@@ -660,9 +669,11 @@ p.stars.selected a:not(.active)::before {
   color: white !important;
 }
 
+/*
 #respond {
   width: 75% !important;
 }
+*/
 
 /* hide 'additional information' tab */
 li.additional_information_tab {
@@ -699,6 +710,13 @@ li.additional_information_tab {
 #ssb-btn-0 a {
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+#ssb-btn-0 p a {
+  margin-left: -5px;
+}
+
+#ssb-btn-0 p a span {
+  width: 0px;
 }
 
 
@@ -737,12 +755,12 @@ li.additional_information_tab {
 
 /* refill */
 .post-191 a div img {
-  width: 83% !important;
-  margin-top: 18px !important;
+  /*width: 83% !important;*/
+  /*margin-top: 18px !important;*/
 }
 
 .post-191 a h2 {
-  margin-top: 40px !important;
+  /*margin-top: 40px !important;*/
   margin-left: 33px !important;
 } 
 
@@ -757,6 +775,39 @@ li.additional_information_tab {
 }
 
 .post-191 .add_to_cart_button {
+  margin-left: 33px !important;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  /*padding: .5em 0; */
+  margin: 0;
+  font-size: 1.5em;
+}
+/* B&W Classic logo Shirt */
+.post-3032 a h2 {
+  margin-left: 33px !important;
+}
+.post-3032 .star-rating {
+  margin-left: 33px !important;
+}
+.post-3032 a .price {
+  margin-left: 33px;
+  margin-top: 10px;
+  font-size: 18px !important;
+}
+.post-3032 .add_to_cart_button {
+  margin-left: 33px !important;
+}
+
+/* Tri-color logo shirt */
+.post-3479 a h2 {
+  margin-left: 33px !important;
+}
+.post-3479 a .price {
+  margin-left: 33px; 
+  margin-top: 10px; 
+  font-size: 18px !important;
+}
+.post-3479 .add_to_cart_button {
   margin-left: 33px !important;
 }
 
@@ -786,6 +837,9 @@ li.additional_information_tab {
 }
 .woocommerce.single-product .entry-summary p.price {
   color: #39B54B;
+}
+.woocommerce ul.products li.product .button {
+  margin-top: 0px !important;
 }
 
 
@@ -829,7 +883,7 @@ li.additional_information_tab {
   float: right;
 }
 #footer .center {
-  width: 80%;
+ width: 80%;
 }
 #footer .widgets .widget {
   width: 33%;
@@ -1260,7 +1314,7 @@ li.additional_information_tab {
 
 @media only screen and (max-width: 442px) {
   #potencyTherm {
-      width: 75%;
+    width: 75%;
   }
 }
 
@@ -1303,19 +1357,19 @@ li.additional_information_tab {
 
 @media only screen and (max-width: 358px) {
   #ast_instagram.widget_insta_medium li {
-      width: 130px;
+    width: 130px;
   }
   #ast_instagram.widget_insta_medium li img {
-      width: 130px;
+    width: 130px;
   }	
 }
 
 @media screen and (max-width: 348px) {
   #front-page-title {
-      font-size: 42px;
+    font-size: 42px;
   }
   #front-page-p {
-      padding: 0px 10px;
+    padding: 0px 10px;
   }
 }
 
