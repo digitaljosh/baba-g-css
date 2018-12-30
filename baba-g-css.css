@@ -73,7 +73,7 @@ button, .button {
     width: 325px;
     height: auto;
     overflow:hidden;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 20px 20px 10px;
     position:relative;
     /*background: rgba(0,0,0,0.3);*/
@@ -81,8 +81,8 @@ button, .button {
     border-radius: 3px;
     box-shadow:  0px 10px 15px rgba(0, 0, 0, 0.2);
     /*  updates */
-    margin-top: 50px;
     border-radius: 23px;
+    float: right;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -340,12 +340,6 @@ label {
     margin-top: -22px;
 }
 
-#potencyTherm {
-    width: 25%;
-    margin-top: 4%;
-}
-
-
 #we-believe-text {
     font-size: 55px;
     float: left; 
@@ -549,6 +543,46 @@ body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-lig
     color: white; 
     font-weight: 600;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* front page thermometer, calc and DIY FYI */
+/* calculator wrapper*/
+#enhancedtextwidget-15 {
+    width: 48%;
+}
+#enhancedtextwidget-15 div.textwidget.widget-text {
+    padding-top: 0;
+}
+/* DIY FYI */
+#diy-fyi-wrapper {
+    text-align: center; 
+    width: 375px; 
+    margin: 75px auto 0 auto;
+    float: right;
+}
+#diy-fyi-title {
+    font-size: 42px; 
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+#best-results {
+    color: #ec008c; 
+    font-size: 30px;
+}
+
+/* thermometer custom widget */
+#custom_html-19 {
+    width: 48%;
+    float: right;
+}
+#potencyTherm-wrapper {
+    background-color: #ffffff;
+}
+/* thermometer image */
+#potencyTherm {
+    width: 45%;
+    left: 10%;
+    position: relative;
 }
 
 
@@ -1037,9 +1071,10 @@ li.additional_information_tab {
     }
 }
 
-@media only screen and (max-width: 1080px) {
+
+@media screen and (max-width: 1100px) {
     #potencyTherm {
-        width: 35%;
+        width: 50%;
     }
 }
 
@@ -1059,6 +1094,13 @@ li.additional_information_tab {
     }
     .step-text {
         font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 975px) {
+    #potencyTherm {
+        width: 58%;
     }
 }
 
@@ -1087,6 +1129,30 @@ li.additional_information_tab {
     }*/
     #front-page-kit-image-title {
         font-size: 50px;
+    }
+    /* RESPONSIVE: CALCULATOR, THERMOMETER, AND DIY FYI */
+    #enhancedtextwidget-15 {
+        width: 100%;
+    }
+    #diy-fyi-wrapper {
+        width: 100%;
+    }
+    #diy-fyi-text {
+        padding: 0px 200px;
+    }
+    #calc-wrapper {
+        float: none;
+    }
+    #custom_html-19 {
+        width: 100%; 
+        margin-top: 50px;
+    }
+    #potencyTherm-wrapper {
+        text-align: center;
+    }
+    #potencyTherm {
+        left: 0;
+        width: 40%;
     }
 }
 
@@ -1140,12 +1206,24 @@ li.additional_information_tab {
 }
 
 
+@media screen and (max-width: 804px) {
+    #one-to-fifteen {
+        font-size: 58px;
+    }
+    #seventy-percent {
+        font-size: 64px;
+    }
+    #sixty-four {
+        font-size: 64px;
+    }
+    #one {
+        font-size: 64px
+    }
+}
 
 
 @media only screen and (max-width: 800px) {
-    #potencyTherm {
-        width: 45%;
-    }
+    
     #we-believe-text {
         font-size: 40px;
   	padding-right: 12px;
@@ -1166,6 +1244,12 @@ li.additional_information_tab {
 @media screen and (max-width: 780px) {
     #footer .widgets .widget {
         width: 33% /*!important*/;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    #diy-fyi-text {
+        padding: 0px 100px;
     }
 }
 
@@ -1208,6 +1292,21 @@ li.additional_information_tab {
     }
 }
 
+@media screen and (max-width: 730px) {
+    #one-to-fifteen {
+        font-size: 52px;
+    }
+    #seventy-percent {
+        font-size: 58px;
+    }
+    #sixty-four {
+        font-size: 58px;
+    }
+    #one {
+        font-size: 58px;
+    }
+}
+
 @media screen and (max-width: 704px) {
     #ast_instagram {
         padding: 50px 10px;
@@ -1216,6 +1315,7 @@ li.additional_information_tab {
         padding-left: 5px;
     }
 }
+
 
 @media screen and (max-width: 680px) {
     /* product gallery refill text info */
@@ -1231,6 +1331,21 @@ li.additional_information_tab {
     }
     #front-page-p {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    #one-to-fifteen {
+        font-size: 48px;
+    }
+    #seventy-percent {
+        font-size: 54px;
+    }
+    #sixty-four {
+        font-size: 54px;
+    }
+    #one {
+        font-size: 54px;
     }
 }
 
@@ -1270,10 +1385,22 @@ li.additional_information_tab {
     }
 }
 
+@media only screen and (max-width: 607px) {
+    #one-to-fifteen {
+        font-size: 44px;
+    }
+    #seventy-percent {    
+        font-size: 50px;
+    }
+    #sixty-four {
+        font-size: 50px;
+    }
+    #one {
+        font-size: 50px;
+    }
+
 @media only screen and (max-width: 600px) {
-    #potencyTherm {
-        width: 55%;
-    } 
+   
     #front-page-title {
         padding-top: 0px;
         line-height: 65px;
@@ -1281,6 +1408,26 @@ li.additional_information_tab {
     }
 }
 
+@media only screen and (max-width: 566px) {
+    #diy-fyi-text {
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 558px) {
+    #one-to-fifteen {
+        font-size: 40px;
+    }
+    #sixty-four {
+        font-size: 48px;
+    }
+    #seventy-percent {
+        font-size: 48px;
+    }
+    #one {
+        font-size: 48px;
+    }
+}
 
 
 @media screen and (max-width: 548px) {
@@ -1381,10 +1528,40 @@ li.additional_information_tab {
     }
 }
 
-@media only screen and (max-width: 480px) {
-    #potencyTherm {
-        width: 65%;
+
+@media screen and (max-width: 508px) {
+    #one-to-fifteen {
+        font-size: 38px;
     }
+    #sixty-four {
+        font-size:46px;
+    }
+    #seventy-percent {
+        font-size:46px;
+    }
+    #one {
+        font-size:46px;
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    #one-to-fifteen {
+        font-size: 36px;
+    }
+    #sixty-four {
+        font-size:42px;
+    }
+    #seventy-percent {
+        font-size:42px;
+    }
+    #one {
+        font-size:42px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    
     .widgettitle {
       	font-size: 28px;
     }
@@ -1403,6 +1580,18 @@ li.additional_information_tab {
     }
     .step-text {
         font-size: 18px;
+    }
+    #sixty-four {
+        font-size: 58px;
+    }
+    #seventy-percent {
+        font-size: 58px;
+    }
+    #one-to-fifteen {
+        font-size: 58px;
+    }
+    #one {
+        font-size: 58px;
     }
 }
 
@@ -1423,11 +1612,7 @@ li.additional_information_tab {
     }
 }
 
-@media only screen and (max-width: 442px) {
-    #potencyTherm {
-        width: 75%;
-    }
-}
+
 
 @media only screen and (max-width: 418px) {
     #we-believe-text {
